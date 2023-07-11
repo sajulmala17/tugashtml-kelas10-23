@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Warga</title>
+    <style>table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      select {
+        width: 66%;
+      }</style>
+</head>
+<body>
+    <form>
+        <center><table border="0.5px">
+        <tr>
+         <td><label><b>Nama Lengkap</b></label></td>
+         <td><b>:</b></td>
+         <td><input type="text" name="nama"></td>   
+        </tr>
+        <tr><td><label><strong>Nomor KTP</strong></label></td>
+        <td><b>:</b></td>
+        <td><input type="text" name="noinduk"></td>
+        </tr>
+        <tr>
+         <td><label><b>Jenis Kelamin</b></label></td>
+         <td><b>:</b></td>
+         <td><select name="jk">
+             <option value="Pria">Laki-Laki</Laki-Laki></option>
+             <option value="Wanita">Perempuan</option>
+             </select>
+         </td>   
+        </tr>
+        <tr>
+            <td><label><b>Kecamatan</b></label></td>
+            <td><b>:</b></td>
+            <td><input type="radio" name="kecamatan" value="Rancah">Rancah
+                <input type="radio" name="kecamatan" value="Cisaga">Cisaga
+                <input type="radio" name="kecamatan" value="Rajadesa">Rajadesa
+            </td>
+        </tr>
+        <tr><td colspan="3"><center><input type="submit" value="KIRIM"></center></td></tr>   
+        </table> 
+        </center>   
+        </form> 
+</body>
+</html>
